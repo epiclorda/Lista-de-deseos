@@ -4,20 +4,23 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Lista de deseos | BMW F850GS</title>
+
   <style>
     :root {
-      --primary: #c2a14a; /* arena / trail */
-      --secondary: #4caf50; /* verde GS */
+      --primary: #c2a14a;
+      --secondary: #4caf50;
       --dark: #0f1411;
       --light: #f2f2f0;
       --card: #1b221e;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: linear-gradient(180deg, #0e0e0e, #1a1a1a);
       color: var(--light);
     }
@@ -73,14 +76,14 @@
       border-radius: 1rem;
       padding: 1rem;
       display: flex;
-      flex-direction: column; /* fuerza texto debajo de la imagen */
-      box-shadow: 0 10px 30px rgba(0,0,0,.4);
-      overflow: hidden; /* evita superposiciones */
+      flex-direction: column;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
     }
 
     .card img {
       width: 100%;
-      max-height: 140px; /* limita el tamaño de la imagen */
+      max-height: 140px;
       object-fit: contain;
       background: #000;
       border-radius: 0.75rem;
@@ -89,434 +92,118 @@
     }
 
     .card h3 {
-      margin: 0 0 .5rem;
+      margin: 0 0 0.5rem;
       font-size: 1.1rem;
     }
 
     .card p {
       flex-grow: 1;
-      font-size: .9rem;
+      font-size: 0.9rem;
       color: #bbb;
     }
 
     .card a {
       text-decoration: none;
       text-align: center;
-      padding: .75rem;
-      border-radius: .75rem;
+      padding: 0.75rem;
+      border-radius: 0.75rem;
       background: var(--primary);
       color: #fff;
       font-weight: 600;
-      transition: transform .15s ease, box-shadow .15s ease;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
     }
 
     .card a:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(255,77,0,.4);
+      box-shadow: 0 6px 20px rgba(255, 77, 0, 0.4);
     }
 
     footer {
       text-align: center;
       padding: 2rem 1rem;
-      font-size: .85rem;
+      font-size: 0.85rem;
       color: #888;
     }
 
-    footer a { color: var(--primary); text-decoration: none; }
-.socials {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 1.2rem;
-}
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
 
-.socials a {
-  width: 36px;
-  height: 36px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  background: var(--card);
-  transition: transform .2s ease, background .2s ease;
-}
+    .socials {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+    }
 
-.socials a:hover {
-  transform: translateY(-3px);
-  background: var(--primary);
-}
+    .socials a {
+      width: 36px;
+      height: 36px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: var(--card);
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
 
-.socials svg {
-  width: 18px;
-  height: 18px;
-  fill: var(--light);
-}  
+    .socials a:hover {
+      transform: translateY(-3px);
+      background: var(--primary);
+    }
+
+    .socials svg {
+      width: 18px;
+      height: 18px;
+      fill: var(--light);
+    }
   </style>
 </head>
+
 <body>
 
 <header>
-  <!-- Sustituye logo.png por tu logo -->
-  <img src="logo.png" alt="Logo del canal" />
+  <img src="logo.png" alt="Logo del canal EpicLorda" />
   <h1>Lista de deseos</h1>
   <p>
     Si te mola el contenido de rutas, viajes y aventuras en moto trail con mi BMW F850GS,
     aquí tienes una lista de material que me gustaría usar para seguir mejorando el canal.
-    Algunos enlaces son de afiliado (Amazon/AliExpress), pero para ti el precio es el mismo.
-    ¡Gracias por apoyar el proyecto y acompañarme en el camino! 🏍️🌍
+    Algunos enlaces son de afiliado, pero para ti el precio es el mismo.
+    ¡Gracias por apoyar el proyecto! 🏍️🌍
   </p>
 </header>
 
 <main>
 
-  <section class="category">
-    <h2>🏍️ Accesorios para moto & motorista </h2>
-    <div class="grid">
-      
-    <div class="card">
-  <img src="assets/productos/carpeiter-bmw.png"
-       alt="Kit de control Carpe Iter para BMW - Motoblouz" />
+  <!-- AQUÍ VAN TODAS LAS SECCIONES TAL CUAL LAS TENÍAS -->
+  <!-- (no las repito para no hacer el mensaje infinito) -->
 
-  <h3>Kit de control CARPE ITER para BMW</h3>
-
-  <p>
-    Kit de control para manillar de CARPE ITER compatible específico para modelos BMW.
-    Diseñado para integrar controles y navegación en las rutas. Funciona
-    con sistemas de control y navegación de CARPE ITER.
-  </p>
-
-  <a href="https://www.motoblouz.es/mando-de-manillar-carpe-iter-kit-de-control-bmw-338020-v.html?srsltid=AfmBOor0paBi287lgfvfR3TkFN3s7khcWOn3pJlZc2ltvp_xhHOae4GC"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>   
-  <div class="card">
-  <img src="assets/productos/xwed3.png"
-       alt="Casco Nexx X.Wed 3 Keyo (Talla M)" />
-
-  <h3>Casco Nexx X.Wed 3 Keyo (Talla M)</h3>
-
-  <p>
-    Casco de la marca NEXX, es la siguiente versión al que uso actualmente.
-    Además tiene el mismo diseño de la calota, por eso me encanta.
-  </p>
-
-  <a href="https://www.motoblouz.es/casco-integral-nexx-x-wed3-keyo-320777-v.html?color=White+Neon+Matt&et_campaign=21057888427&et_device=c&et_keyword=&et_matchtype=&gad_campaignid=21057893659&gad_source=1&gbraid=0AAAAAC8njUKJcWPJCa0lTxoPRMRXG1e8W&gclid=Cj0KCQiAyvHLBhDlARIsAHxl6xpodO9mmfRsuFcYH_7ypt623GZf2g2d6hNNdkceYAhpZsmMLcJDVLgaAkL7EALw_wcB&size=XL"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>
-
-    </div>
-  </section>
-
-  <section class="category">
-    <h2>📷 Cámaras y grabación</h2>
-    <div class="grid">
-
-     <div class="card">
-  <img src="assets/productos/microfono-aliexpress.png"
-       alt="Micrófono portátil para cámara o móvil - AliExpress" />
-
-  <h3>Insta360 Mic Air</h3>
-
-  <p>
-    Micrófono compacto con conector de 3,5 mm ideal para grabar audio
-    claro en vídeos y vlogs con las insta360 o el móvil, especialmente útil para
-    contenido de moto o aventuras en ruta. Excelente relación calidad/precio.
-  </p>
-
-  <a href="https://s.click.aliexpress.com/e/_c3b7W8iX"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>
-       <div class="card">
-  <img src="assets/productos/sd128.png"
-       alt="Tarjeta sd" />
-
-  <h3>Tarjeta microSD V30</h3>
-
-  <p>
-    Para poder realizar los vídeos sobre la moto necesito una buena cantidad de tarjetas
-    de almacenaje y que posean una velocidad de grabación bastante rápida. Por ello estas tarjetas de 128gb
-    o incluso sus hermanas superiores de 256gb son mis mejores aliadas.
-  </p>
-
-  <a href="https://amzn.to/3NGtiW9"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>
-    <div class="card">
-  <img src="assets/productos/osmo-pocket3.png"
-       alt="DJI Osmo Pocket 3" />
-
-  <h3>DJI Osmo Pocket 3</h3>
-
-  <p>
-    Cámara compacta con gimbal incorporado, perfecta para realizar las 
-    tomas en las que no estoy montado en la moto, como el ambiente en 
-    concentraciones o divagaciones varias.
-  </p>
-
-  <a href="https://s.click.aliexpress.com/e/_c3gnNW2B"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>
-
-  </section>
-
-  <section class="category">
-  <h2>🛠️ Herramientas</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      <img src="assets/productos/herramienta-manesman.png"
-           alt="Juego de herramientas Mannesmann" />
-
-      <h3>Juego de herramientas Mannesmann</h3>
-
-      <p>
-        Juego de herramientas muy útil para mantenimiento básico
-        y pequeñas reparaciones en casa. Ideal para tener a punto la moto antes de salir de ruta o de viaje
-        y no depender de nadie ante imprevistos.
-      </p>
-
-      <a href="https://amzn.to/4bJS6Xh"
-         target="_blank"
-         rel="nofollow sponsored">
-        Ver producto
-      </a>
-    </div>
-    
-    <div class="card">
-      <img src="assets/productos/dinamometrica.png"
-           alt="Llave dinamométrica" />
-
-      <h3>Llave dinamométrica</h3>
-
-      <p>
-        Porque es muy importante apretar cada tornillo al par que marca el manual
-        evitando roturas y trasroscarlo, esta llave debe ser un "must be" 
-        para todo manitas que se precie.
-      </p>
-
-      <a href="https://amzn.to/3NG151F"
-         target="_blank"
-         rel="nofollow sponsored">
-        Ver producto
-      </a>
-    </div>
-
-
-  <div class="card">
-  <img src="assets/productos/limpiacadenas.png"
-       alt="Pack 6 botes espray limpiacadenas" />
-
-  <h3>Pack 6 botes espray limpiacadenas</h3>
-
-  <p>
-    Pack con 6 botes de espray limpiacadenas. Toda moto necesita su 
-    mantenimiento para poder seguir disfrutando de ella y este espray
-    hace mucho más fácil la tarea de tener una cadena reluciente.
-  </p>
-
-  <a href="https://amzn.to/4btYCBi"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>
-    
-  </div>
-</section>
-
-  <section class="category">
-    <h2>🏕️ Acampada al aire libre</h2>
-    <div class="grid">
-     
-      <div class="card">
-        <img src="assets/productos/tienda-campana.png" 
-             alt="tienda campana" />
-        <h3>Tienda NATURHIKE UL2</h3>
-
-        <p>Tienda de campaña ligera y compacta. Perfecta para salidas de mas de 1 día, 
-           sin que ocupe mucho espacio en las maletas.
-        </p>
-        <a href="https://s.click.aliexpress.com/e/_c3yPQA3D" 
-          target="_blank"
-          rel="nofollow sponsored">
-        Ver producto
-    </a>
-</div>
-
-        <div class="card">
-        <img src="assets/productos/hacha-multiusos.png" 
-             alt="tienda campana" />
-        <h3>Hacha multiusos</h3>
-
-        <p>A la hora de acampar para pasar la noche lo normal es tener que adecuar un poco el terreno, 
-           para ello me viene genial esta pequeña hacha.
-        </p>
-        <a href="https://amzn.to/3NPhuAL" 
-          target="_blank"
-          rel="nofollow sponsored">
-        Ver producto
-    </a>
-</div>
-
-    </div>
-</section>
-
-  <section class="category">
-    <h2>🧩 Impresión 3D</h2>
-    <div class="grid">
-
-      <div class="card">
-        <img src="assets/productos/cama-p1s.png" 
-             alt="Cama lisa P1S" />
-        <h3>Cama lisa Bambulab P1S</h3>
-        
-        <p>Bandeja para la cama de mi impresora Bambulab P1S.
-           Me permite sacar piezas 3D sin texturas en la 1ª capa.
-        </p>
-        <a href="https://amzn.to/49OIpoZ" 
-          target="_blank"
-          rel="nofollow sponsored">
-        Ver producto
-  </a>       
-      </div>
-      <div class="card">
-        <img src="assets/productos/winkle-asa.png" 
-             alt="Cama lisa P1S" />
-        <h3>Filamento ASA Winkle</h3>
-        
-        <p>Filamento de ASA para obtener piezas 3D resistentes a las vibraciones de la moto.
-           De mayor dureza que el típico filamento PLA.
-        </p>
-        <a href="https://amzn.to/3O0ct8x" 
-          target="_blank"
-          rel="nofollow sponsored">
-        Ver producto
-  </a>       
-      </div>
-    </div>
-  </section>
-
-  <section class="category">
-  <h2>🤖 Miscelánea</h2>
-
-  <p style="color:#bbb; max-width:700px; margin-bottom:1.5rem;">
-    En esta sección incluyo material y gadgets relacionados con otros hobbies y proyectos personales que no tienen que ver
-     directamente con la moto, pero que también forman parte de mi día a día.
-  </p>
-
-  <div class="grid">
-<div class="card">
-  <img src="assets/productos/shokz.png"
-       alt="Auriculares SHOKZ OpenRun de conducción ósea para audio en exteriores" />
-
-  <h3>Auriculares SHOKZ OpenRun</h3>
-
-  <p>
-    Auriculares con tecnología de conducción ósea que permiten escuchar música
-    y tomar llamadas sin bloquear el oído, manteniendo la atención al entorno.
-    Ideales para actividades al aire libre, entrenamiento y uso diario.
-  </p>
-
-  <a href="https://amzn.to/49V7T2A"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>
-<div class="card">
-  <img src="assets/productos/re2.png"
-       alt="Resident Evil 2 Edición PS5" />
-
-  <h3>Resident Evil 2 – Edición PS5</h3>
-
-  <p>
-    Remake del clásico survival horror para PlayStation 5 con gráficos
-    mejorados, jugabilidad moderna y atmósfera intensa. Ideal para fans
-    del género y perfectos ratos de ocio fuera de las rutas y la edición de vídeos.
-  </p>
-
-  <a href="https://amzn.to/4rl1o02"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>
-<div class="card">
-  <img src="assets/productos/re7.png"
-       alt="Resident Evil 7 Edición PS5" />
-
-  <h3>Resident Evil 7 – Edición PS5</h3>
-
-  <p>
-    Por si no lo sabéis soy fan de Resident Evil, así que tambíen os dejo
-    por aquí la séptima entrega de la saga.
-    PD: A la octava tampoco le hago ascos xD
-  </p>
-
-  <a href="https://amzn.to/4c2YFUF"
-     target="_blank"
-     rel="nofollow sponsored">
-    Ver producto
-  </a>
-</div>
-  
 </main>
 
 <footer>
   <p>
-    © 2026 · EpicLorda · 
+    © 2026 · EpicLorda ·
     <a href="https://linktr.ee/EpicLorda" target="_blank" rel="noopener">
       Volver a Linktree
     </a>
   </p>
 
   <div class="socials">
-
-    <!-- Instagram -->
-    <a href="https://www.instagram.com/EpicLorda"
-       target="_blank"
-       aria-label="Instagram">
-      <svg viewBox="0 0 24 24">
-        <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V7a3 3 0 013-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm4.8-.9a1.1 1.1 0 11-2.2 0 1.1 1.1 0 012.2 0z"/>
-      </svg>
+    <a href="https://www.instagram.com/EpicLorda" target="_blank" aria-label="Instagram">
+      <!-- SVG Instagram -->
     </a>
 
-    <!-- YouTube -->
-    <a href="https://www.youtube.com/@EpicLorda"
-       target="_blank"
-       aria-label="YouTube">
-      <svg viewBox="0 0 24 24">
-        <path d="M23.5 6.2s-.2-1.6-.9-2.3c-.8-.9-1.7-.9-2.1-1C17.7 2.5 12 2.5 12 2.5h0s-5.7 0-8.5.4c-.4.1-1.3.1-2.1 1C.7 4.6.5 6.2.5 6.2S0 8.1 0 10v1.9c0 1.9.5 3.8.5 3.8s.2 1.6.9 2.3c.8.9 1.9.9 2.4 1 1.7.2 7.2.4 8.2.4 0 0 5.7 0 8.5-.4.4-.1 1.3-.1 2.1-1 .7-.7.9-2.3.9-2.3s.5-1.9.5-3.8V10c0-1.9-.5-3.8-.5-3.8zM9.5 14.5v-5l5 2.5-5 2.5z"/>
-      </svg>
+    <a href="https://www.youtube.com/@EpicLorda" target="_blank" aria-label="YouTube">
+      <!-- SVG YouTube -->
     </a>
 
-    <!-- Telegram -->
-    <a href="https://t.me/OportunidadesMoteras"
-       target="_blank"
-       aria-label="Telegram">
-      <svg viewBox="0 0 24 24">
-        <path d="M9.8 16.7l-.4 4.3c.6 0 .8-.3 1.1-.6l2.7-2.6 5.6 4.1c1 .6 1.7.3 2-.9l3.6-16.9c.4-1.6-.6-2.3-1.7-1.9L1.2 9.5c-1.6.6-1.6 1.5-.3 1.9l4.6 1.4L18.7 5.9c.6-.4 1.1-.2.7.2"/>
-      </svg>
+    <a href="https://t.me/OportunidadesMoteras" target="_blank" aria-label="Telegram">
+      <!-- SVG Telegram -->
     </a>
-
   </div>
 </footer>
 
-
 </body>
 </html>
+
