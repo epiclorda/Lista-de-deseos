@@ -169,6 +169,29 @@
     html {
   scroll-behavior: smooth;
 }
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .75rem;
+  margin: 2rem auto 3rem;
+}
+
+.section-nav a {
+  padding: .5rem 1rem;
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--light);
+  font-size: .9rem;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.section-nav a:hover {
+  background: var(--primary);
+  color: #fff;
+  transform: translateY(-2px);
+}
 
   </style>
 </head>
