@@ -190,6 +190,31 @@
   transform: translateY(-2px);
 }
 
+    .amazon-btn {
+  display: inline-flex;        /* texto + icono alineados */
+  align-items: center;
+  gap: .5rem;                  /* espacio entre texto e icono */
+  padding: .8rem 1.2rem;       /* un poco más pequeño que botones de productos */
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: .75rem;
+  background: #ff9900;         /* color Amazon */
+  color: #111;
+  text-decoration: none;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.amazon-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255,153,0,.4);
+}
+
+.amazon-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
   </style>
 </head>
 
