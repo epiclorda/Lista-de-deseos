@@ -29,6 +29,26 @@
       padding: 3rem 1.5rem 2rem;
       text-align: center;
     }
+.back-to-top {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.back-to-top a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--secondary);
+  color: var(--light);
+  border-radius: 0.75rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.back-to-top a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
 
     header img {
       width: 240px;
@@ -280,6 +300,15 @@
   
   
 <body>
+  
+<!-- Ancla para volver arriba -->
+<div id="top"></div>
+
+<header>
+  <img src="logo.png" alt="Logo del canal" />
+  <h1>Lista de deseos</h1>
+  <p>…</p>
+</header>
 
 <header>
   <img src="logo.png" alt="Logo del canal EpicLorda" />
@@ -335,7 +364,10 @@
       </a> 
     </div> 
   </div> 
-  
+  <div class="back-to-top">
+  <a href="#top" title="Volver arriba">⬆ Volver arriba</a>
+</div>
+
 </section> 
   
   <section class="category" id="cámaras"> 
@@ -378,7 +410,10 @@
           Ver producto 
         </a> 
       </div> 
-      
+      <div class="back-to-top">
+  <a href="#top" title="Volver arriba">⬆ Volver arriba</a>
+</div>
+
   </section> 
   
   <section class="category" id="herramientas"> 
@@ -421,7 +456,10 @@
         </a> 
       </div> 
     </div> 
-      
+ <div class="back-to-top">
+  <a href="#top" title="Volver arriba">⬆ Volver arriba</a>
+</div>
+     
   </section> 
   
   <section class="category" id="acampada">
@@ -451,7 +489,10 @@
         </a> 
       </div> 
     </div> 
-    
+    <div class="back-to-top">
+  <a href="#top" title="Volver arriba">⬆ Volver arriba</a>
+</div>
+
   </section> 
   
   <section class="category" id="impresion3D"> 
@@ -480,7 +521,10 @@
         </a> 
       </div> 
     </div> 
-  
+  <div class="back-to-top">
+  <a href="#top" title="Volver arriba">⬆ Volver arriba</a>
+</div>
+
   </section> 
   
   <section class="category" id="miscelanea"> 
@@ -525,7 +569,10 @@
         </a> 
       </div> 
     </main>
-  
+  <div class="back-to-top">
+  <a href="#top" title="Volver arriba">⬆ Volver arriba</a>
+</div>
+
 <section class="category" id="enviarme">
   <h2>📦 ¿Quieres enviarme algo?</h2>
 
@@ -553,6 +600,9 @@
 </a>
 
   </p>   
+<div class="back-to-top">
+  <a href="#top" title="Volver arriba">⬆ Volver arriba</a>
+</div>
 
 </section>
 <section class="category personal-message">
