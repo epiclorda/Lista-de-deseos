@@ -529,8 +529,8 @@
 </main>
 
 <footer>
-  <p>
-    © 2026 · EpicLorda · 
+  <p> 
+    © <span id="year"></span> · EpicLorda · 
     <a href="https://linktr.ee/EpicLorda" target="_blank" rel="noopener">
       Volver a Linktree
     </a>
@@ -568,7 +568,9 @@
   </div>
 </footer>
 
-
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
 
